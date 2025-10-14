@@ -22,18 +22,27 @@ The dashboard covers **operational, demographic, and service-related factors**, 
 
 ---
 
-## 🗂 Project Files
-- `airline_satisfaction.csv` — Dataset
-- `airline_app.py` — Main Streamlit launcher
-- `helper_functions.py` — Functions for loading and preprocessing data
-- Page scripts:
-  - `overview.py` — Overall satisfaction and breakdown by class and customer type
-  - `service_impact.py` — Which services drive satisfaction
-  - `operational_factors.py` — Effect of delays and travel type on satisfaction
-  - `demographics.py` — Satisfaction by age group and gender
-  - `customer_loyalty.py` — Loyal vs Disloyal satisfaction and service correlations
-  - `conclusions.py` — Executive summary and recommendations
+## 🗂️ Project Structure
 
+```
+
+AirlinePassengerSatisfactionDashboard/
+│
+├── Home.py                         # Main page (project introduction)
+├── pages
+    ├── Overview.py                 # Overall satisfaction and breakdown by class and customer type
+    ├── Service Impact.py           # Which services drive satisfaction
+    ├── Operational Factors.py      # Effect of delays and travel type on satisfaction
+    ├── Demographics Insights.py             # Satisfaction by age group and gender
+    ├── Customer Loyalty.py         # Loyal vs Disloyal satisfaction and service correlations
+    ├──Conclusions.py               # Executive summary and recommendations.py                 
+    
+├── helper_function.py              # Data loading helper
+├── requirements.txt                # required libraries
+├── airline_logo.jpg                # photo 
+└── airline_satisfaction.csv        # Dataset
+
+````
 ---
 
 ## 🧭 Dashboard Pages
