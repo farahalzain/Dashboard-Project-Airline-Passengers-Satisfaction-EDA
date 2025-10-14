@@ -1,7 +1,7 @@
 # Dashboard-Project-Airline-Passengers-Satisfaction-EDA
 # ✈️ Airline Passenger Satisfaction Dashboard
 
-## Overview
+## 📊 Overview
 This interactive **Streamlit dashboard** analyzes the **Airline Passenger Satisfaction dataset** to help airlines understand what drives passenger satisfaction, optimize services, and enhance loyalty programs.  
 
 The dashboard covers **operational, demographic, and service-related factors**, with interactive charts and tables.
@@ -73,7 +73,3 @@ AirlinePassengerSatisfactionDashboard/
 - Executive summary with **key drivers** and **recommendations**  
 - Includes business insights and actionable suggestions
 
----
-
-git clone https://github.com/YourUsername/airline_satisfaction_dashboard.git
-cd airline_satisfaction_dashboard
